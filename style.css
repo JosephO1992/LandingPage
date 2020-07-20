@@ -1,0 +1,53 @@
+/* font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Shadows Into Light', cursive; */
+
+:root {
+    --main-bg-color: #77b6e0;
+    --secondary-bg-color: #f0e5e5;
+    --main-font-color: #fff;
+    --secondary-font-color: #3f3e3e;
+   
+}
+
+
+body {
+    box-sizing: border-box;
+    background-color: var(--main-bg-color);
+    color: var(--main-font-color);
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.section {
+    
+    width: 700px;
+    margin: 50px auto;
+    background-color: var(--secondary-bg-color);
+    color: var(--secondary-font-color);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: -3px 3px 5px 1px var(--secondary-font-color);
+    
+}
+
+h1 {
+    font-family: 'Shadows Into Light', cursive;;
+    font-size: 3rem;
+}
+
+h2, p {
+    font-family: "lato", sans-serif;
+}
+
+
+
